@@ -10,6 +10,13 @@ class Node<T> {
 
 class Source {
   public static int sumList(Node<Integer> head) {
+
+    /*
+    initalize a counter variable
+    while our node is not null we ad our value of the head node and move the pointer one forward
+    then return our answer
+     */
+
     // todo
     int sum = 0;
     while(head != null){
